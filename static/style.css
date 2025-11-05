@@ -56,57 +56,57 @@ body {
 }
 
 .searchBox {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 600px;
-  height: 40px;
-  margin: 20px auto;
-  background: rgba(255, 255, 255, 0.35);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 30px;
-  backdrop-filter: blur(10px) saturate(150%);
-  -webkit-backdrop-filter: blur(10px);
-  overflow: hidden;
-  transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+    backdrop-filter: blur(10px) saturate(150%);
+    -webkit-backdrop-filter: blur(10px);
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
 .searchInput {
-  flex: 1;
-  border: none;
-  outline: none;
-  background: transparent;
-  color: #222;
-  font-size: 16px;
-  padding: 0 90px 0 45px;
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #222;
+    font-size: 16px;
+    padding: 0 90px 0 45px;
 }
 
 .searchBox:hover {
-  border-color: rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.3);
-}
+    border-color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
+    }
 
 .searchButton {
-  position: absolute;
-  right: 8px;
-  width: 90px;
-  height: 30px;
-  border: none;
-  background: linear-gradient(90deg,rgba(174, 251, 252, 0.7) 0%, rgba(137, 207, 250, 0.7) 25%, rgba(217, 140, 250, 0.7) 100%);
-  color: #1a1a1a;
-  font-weight: 500;
-  border: none;
-  border-radius: 40px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(6px);
-  cursor: pointer;
-  transition: all 0.3s ease;
+    position: absolute;
+    right: 8px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    background: linear-gradient(90deg,rgba(174, 251, 252, 0.7) 0%, rgba(137, 207, 250, 0.7) 25%, rgba(217, 140, 250, 0.7) 100%);
+    color: #1a1a1a;
+    font-weight: 500;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .searchButton:hover {
-  background: linear-gradient(90deg,rgba(174, 251, 252, 1) 0%, rgba(137, 207, 250, 1) 25%, rgba(217, 140, 250, 1) 100%);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: linear-gradient(90deg,rgba(174, 251, 252, 1) 0%, rgba(137, 207, 250, 1) 25%, rgba(217, 140, 250, 1) 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .searchBox svg{
